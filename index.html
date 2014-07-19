@@ -3,7 +3,6 @@
 <head>
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 	<title>Evan Riley</title>
-	<link rel="Shortcut Icon" href="/favicon.ico" type="image/x-icon" />
 	<meta http-equiv="pragma" content="no-cache" />
 	<meta name="robots" content="all" />
 	<meta name="MSSmartTagsPreventParsing" content="true" />
@@ -13,22 +12,7 @@
 	<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-	<style>
-		* { padding: 0; margin: 0; }
-		body { background-color: #fff; }
-		h1 { color: #000; font-family: 'Open Sans', sans-serif; font-size: 40px; line-height: 24px; margin-bottom: 22px; -webkit-font-smoothing: antialiased; }
-		p { color: #000; font-family: 'Open Sans', sans-serif; font-size: 16px; line-height: 24px; margin-bottom: 22px; -webkit-font-smoothing: antialiased; }
-		a { color: #000; font-weight: bold; text-decoration: none; border-bottom: 1px solid rgba(255,255,255,0.3); }
-		a:hover { color: #990000; border-bottom: 1px solid rgba(255,255,255,1);}
-		ul li { list-style: none; margin: 0; padding: 10px; display: inline; }
-		#monogram { width: 50px; padding: 50px 0 0 0; margin: 0 auto 0 50px; }
-		#about { width: 360px; padding: 0 0 0 150px; margin: 35px 500px 0 auto !important; }
-		@media (max-width: 767px) {
-			#monogram { position: relative; width: auto; padding: 20px; margin: 0; }
-			#about { position: relative; width: auto; padding: 20px; margin: 0 !important; }
-			background-image { opacity: 0.2; }
-		}
-	</style>
+	<link rel="stylesheet" href="css/styles.css" media="screen" title="no title" charset="utf-8">
 </head>
 
 <body>
@@ -54,25 +38,12 @@
 	</p>
 </div>
 
-<div id="blogpost">
-	<h1>Blog Post</h1>
-
-</div>
-
 <!--include jquery & backstretch-->
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 <script type="text/javascript" src="jquery.backstretch.min.js"></script>
-<script type="text/javascript">
-$(function(){
-     $(window).resize(function(){
-         if($(this).width() >= 767){
-             $.backstretch("bg.png", {speed: 150});
-         }
-      })
-      .resize();//trigger resize on page load
-});
-</script>
+<script type="text/javascript" src="js/scripts.js"></script>
 
+<!-- Google Analytics -->
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
