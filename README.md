@@ -1,11 +1,8 @@
-<<<<<<< HEAD
-eriley.github.io
-================
+# Hi, I'm Evan
 
-Personal Site
-=======
-hpstr-jekyll-theme
-==================
+### This Is My Personal Site
 
-Jekyll theme. Stay tuned.
->>>>>>> Initial commit
+
+## Find Me
+
+[@evanriley](https://twitter.com/evanriley)
