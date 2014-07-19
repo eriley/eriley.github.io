@@ -9,3 +9,5 @@ permalink: /:year/:title/
 
 timezone: America/New_York
 encoding: UTF-8
+
+markdown: kramdown
