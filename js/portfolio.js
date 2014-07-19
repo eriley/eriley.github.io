@@ -7,7 +7,7 @@ var sleep = function(ms, callback) {
     setTimeout(function() {
         callback()
     }, ms)
-}, favthings = ["golang", "ruby", 'ice cream', "climbing", "camping", "virtualization"]
+}, favthings = ["golang", "ruby", 'ice cream', "climbing", "camping", "tiny scripts"]
     removeClass = function(el, className) {
         el.classList ? el.classList.remove(className) : el.className = el.className.replace(new RegExp("(^|\\b)" + className.split(" ").join("|") + "(\\b|$)", "gi"), " ")
     }, addClass = function(el, className) {
