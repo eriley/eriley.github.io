@@ -1,0 +1,11 @@
+title: Evan Riley
+tagline: Web Developer
+
+name: Evan Riley
+
+url: http://evanriley.io
+
+permalink: /:year/:title/
+
+timezone: America/New_York
+encoding: UTF-8

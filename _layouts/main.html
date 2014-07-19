@@ -1,0 +1,28 @@
+{% include header.html %}
+<div id="about">
+  <h1>Hello</h1>
+  <p>
+    I'm Evan Riley. I enjoy developing for the web.
+  </p>
+  <p>
+    <ul>
+      <li><a href="https://twitter.com/evanriley">Twitter</a></li>
+      <li><a href="http://github.com/riley">GitHub</a></li>
+      <li><a href="mailto:evancrileyis@gmail.com">Email</a></li>
+      <li><a href="https://medium.com/@evanriley">Writings</a></li>
+    </ul>
+  </p>
+</div>
+
+<ul class="posts">
+  <h4 class="blog">Blog Post</h4>
+{% for page in site.posts %}
+  <li class="post">
+            <a href="{{ site.url }}{{ page.url }}">{{ page.title }}</a>
+
+  </li>
+  {{ page.date | date: '%B %d, %Y' }}
+{% endfor %}
+</ul>
+
+{% include footer.html %}
