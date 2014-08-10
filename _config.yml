@@ -1,24 +1,11 @@
-# Dependencies
-markdown:         redcarpet
-pygments:         true
+name: Evan Riley
+pygments: true
+markdown: kramdown
 
-# Permalinks
-permalink:        pretty
-
-# Setup
-title:            Evan Riley
-tagline:          'Web Developer based in North Carolina'
-description:      'Personal site of Evan riley'
-url:              http://evanriley.io
-baseurl:          '/'
-paginate:         5
-
-author:
-  name:           'Evan Riley'
-  url:            https://twitter.com/evanriley
-
-# Custom vars
-version:          1.0.0
-
-github:
-  repo:           https://github.com/eriley/eriley.github.io
+navigation:
+- text: Blog
+  url: /index.html
+- text: About
+  url: /about/index.html
+- text: Projects
+  url: /projects/index.html

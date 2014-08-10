@@ -1,8 +1,4 @@
-# Hi, I'm Evan
+##evanriley.io
+=====================
 
-### This Is My Personal Site
-
-
-## Find Me
-
-[@evanriley](https://twitter.com/evanriley)
+Personal blog, and stuff.
