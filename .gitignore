@@ -2,3 +2,4 @@
 *~
 *.swp
 styles/sass/*
+.sass-cache/*
