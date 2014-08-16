@@ -1,4 +1,4 @@
 ##evanriley.io
 =====================
 
-Personal blog, and stuff.
+Personal site...and stuff
