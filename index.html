@@ -1,16 +1,25 @@
----
-layout: default
-title: Blog
----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Evan Riley</title>
 
-<ul id="post-listing">
-  {% for post in site.posts %}
-  <li>
-    <h2 class="post-title">
-      <a href="{{ post.url }}">{{ post.title }}</a>
-      <span class="date">({{ post.date | date_to_string }})</span>
-    </h2>
-    <h3 class="post-subtitle">{{ post.snip }}</h3>
-  </li>
-  {% endfor %}
-</ul>
+  <link rel="stylesheet" href="styles/normalize.css">
+  <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+
+  <section class="me">
+    <h1>Evan Riley</h1>
+    <span class="lead-in">designer and developer.</span>
+  </section>
+  <section class="social">  
+    <span class="lead-in">Follow Me</span>
+    <ul>
+      <li><a href="http://twitter.com/evanriley">Twitter</a></li>
+      <li><a href="http://github.com/eriley">GitHub</a></li>
+    </ul>
+  </section>
+
+</body>
+</html>
