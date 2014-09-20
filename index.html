@@ -11,8 +11,7 @@ title: Blog
         <span class="date">{{ post.date | date_to_long_string}}</span>
         <h3>{{ post.title }}</h3>
         <p class="short">
-          Talking abuot Lorem Ipsum, but not really
-          because this doesn't go to anything
+          {{ post.excerpt }}
         </p>
       </li>
     </a>
