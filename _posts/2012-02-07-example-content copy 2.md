@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Example content
+excerpt: This is an example post.
 ---
 
 
