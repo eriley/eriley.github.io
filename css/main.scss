@@ -165,9 +165,12 @@ header {
 
 .content {
   margin: 0 auto;
-  width: 75%;
+  width: 60%;
   padding: 25px;
   color: $grey;
+  line-height: 110%;
+  font-weight: 300;
+  font-size: 20px;
 
   a {
     color: $secondary;
