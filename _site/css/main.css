@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400,700);
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700|Open+Sans:400,300,700);
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -11,15 +11,15 @@ body {
 
 a {
   text-decoration: none;
-  color: #00B4FF; }
+  color: #901808; }
 
 a:hover {
-  color: #00B4FF; }
+  color: #901808; }
 
 header {
-  background: #FFFFFF;
-  color: #515151;
-  height: 100px;
+  background: #901808;
+  color: #444444;
+  height: 80px;
   width: 100%;
   position: relative; }
   header .wrap {
@@ -34,34 +34,38 @@ header {
       position: relative;
       font-weight: 300;
       font-size: 36px;
-      top: 25px;
+      top: 15px;
       float: left;
       display: block;
       margin-right: 2.35765%;
-      width: 23.23176%; }
+      width: 23.23176%;
+      font-family: "Open Sans", Helvetica, Arial, sans-serif; }
       header .wrap span.logo:last-child {
         margin-right: 0; }
     header .wrap .name {
-      color: #515151; }
+      color: #FFFFFF; }
     header .wrap nav a {
       position: relative;
-      color: #515151;
+      color: #FFFFFF;
       text-decoration: none; }
     header .wrap nav a:hover {
-      color: #00B4FF; }
+      color: #FFFFFF; }
     header .wrap nav a:before {
       content: "";
       position: absolute;
       width: 100%;
-      height: 2px;
+      height: 1px;
       bottom: 0;
       left: 0;
-      background-color: #00B4FF;
+      background-color: #FFFFFF;
       visibility: hidden;
+      -webkit-transform: scaleX(0);
       transform: scaleX(0);
+      -webkit-transition: all 0.3s ease-in-out 0s;
       transition: all 0.3s ease-in-out 0s; }
     header .wrap nav a:hover:before {
       visibility: visible;
+      -webkit-transform: scaleX(1);
       transform: scaleX(1); }
     header .wrap nav ul {
       float: left;
@@ -70,7 +74,7 @@ header {
       width: 74.41059%;
       list-style: none;
       text-align: right;
-      top: 25px;
+      top: 15px;
       position: relative; }
       header .wrap nav ul:last-child {
         margin-right: 0; }
@@ -95,7 +99,7 @@ header {
   background-size: 100%;
   background-position: 50% 50%;
   width: 100%;
-  height: 350px;
+  height: 250px;
   text-align: center;
   position: relative; }
   .hero h1 {
@@ -107,48 +111,49 @@ header {
     font-size: 42px;
     color: #FFFFFF; }
 
-.posts a {
-  color: #515151; }
-.posts a:hover {
-  color: #00B4FF; }
-.posts span {
-  font-weight: 300; }
-.posts ul {
-  max-width: 68em;
-  margin-left: auto;
-  margin-right: auto;
-  list-style: none;
-  margin: 50px auto; }
-  .posts ul:after {
-    content: "";
-    display: table;
-    clear: both; }
-  .posts ul .post {
-    float: left;
-    display: block;
-    margin-right: 2.35765%;
-    width: 48.82117%;
-    width: 300px;
-    display: inline;
-    padding: 0 20px 15px 20px; }
-    .posts ul .post:last-child {
-      margin-right: 0; }
-    .posts ul .post p {
-      padding-bottom: 8px;
-      border-bottom: solid;
-      border-bottom-width: thin; }
+.posts {
+  font-family: "Lato", sans-serif; }
+  .posts span {
+    font-weight: 300; }
+  .posts a {
+    color: #444444; }
+  .posts a:hover {
+    color: #901808; }
+  .posts ul {
+    max-width: 68em;
+    margin-left: auto;
+    margin-right: auto;
+    list-style: none;
+    margin: 50px auto; }
+    .posts ul:after {
+      content: "";
+      display: table;
+      clear: both; }
+    .posts ul .post {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 48.82117%;
+      width: 25%;
+      padding: 0 0 15px 10px;
+      margin-right: 0;
+      font-weight: 700; }
+      .posts ul .post:last-child {
+        margin-right: 0; }
+    .posts ul p {
+      font-weight: 500; }
 
 .content {
   margin: 0 auto;
   width: 75%;
   padding: 25px;
-  color: #515151; }
+  color: #444444; }
   .content a {
-    color: #00B4FF;
+    color: #901808;
     text-decoration: underline; }
 
 footer {
-  color: #515151;
+  color: #444444;
   text-align: center; }
   footer a:hover {
     text-decoration: underline; }

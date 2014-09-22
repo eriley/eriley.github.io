@@ -9,12 +9,12 @@
 
 //Google Font Import, mmm Open Sans, one of my favorites
 
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400,700);
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700|Open+Sans:400,300,700);
 
 //Set Commonly Used Colors as Variables
-$base: #FFFFFF; //White...because white.
-$secondary: #00B4FF; //Light Blue;
-$grey: #515151; //Charcoal Greyish Color
+$base: #FFFFFF; //White...
+$secondary: #901808; //Dark red.
+$grey: #444444; //Dark grey.
 
 
 body {
@@ -33,9 +33,9 @@ a:hover {
 }
 
 header {
-  background: $base;
+  background: $secondary;
   color: $grey;
-  height: 100px;
+  height: 80px;
   width: 100%;
   position: relative;
 
@@ -46,22 +46,23 @@ header {
       position: relative;
       font-weight: 300;
       font-size: 36px;
-      top: 25px;
+      top: 15px;
       @include span-columns(3);
+      font-family: "Open Sans", Helvetica, Arial, sans-serif;
     }
 
   .name {
-    color: $grey;
+    color: $base;
   }
 
     nav {
       a {
         position: relative;
-        color: $grey;
+        color: $base;
         text-decoration: none;
       }
       a:hover {
-        color: $secondary;
+        color: $base;
       }
       a:before {
         content: "";
@@ -70,7 +71,7 @@ header {
         height: 1px;
         bottom: 0;
         left: 0;
-        background-color: $secondary;
+        background-color: $base;
         visibility: hidden;
         -webkit-transform: scaleX(0);
         transform: scaleX(0);
@@ -88,7 +89,7 @@ header {
       @include span-columns(9);
       list-style: none;
       text-align: right;
-      top: 25px;
+      top: 15px;
       position: relative;
       li {
         display: inline;
@@ -110,7 +111,7 @@ header {
   background-size: 100%;
   background-position: 50% 50%;
   width: 100%;
-  height: 350px;
+  height: 250px;
   text-align: center;
   position: relative;
 
@@ -127,6 +128,12 @@ header {
 
 .posts {
 
+  font-family: "Lato", sans-serif;
+
+  span {
+    font-weight: 300;
+  }
+
 
   a {
     color: $grey;
@@ -137,9 +144,6 @@ header {
   }
 
 
-  span {
-    font-weight: 300;
-  }
   ul {
     @include outer-container;
     list-style: none;
@@ -147,17 +151,16 @@ header {
 
     .post {
       @include span-columns(6);
-      width: 300px;
-      display: inline;
-      padding: 0 20px 15px 20px;
+      width: 25%;
+      padding: 0 0 15px 10px;
+      margin-right: 0;
+      font-weight: 700;
+      }
 
       p {
-        padding-bottom: 8px;
-        border-bottom: solid;
-        border-bottom-width: thin;
+        font-weight: 500;
       }
-    }
-  }
+}
 }
 
 .content {
