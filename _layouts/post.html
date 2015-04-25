@@ -1,12 +1,6 @@
----
-layout: home
----
+{% include head.html %}
 
-<div class="wrap">
-  <span class="date">{{ post.date }}</span>
-
-  <div class="content about">
+  <div class="post-content">
     {{ content }}
   </div>
-
-</div>
+{% include tail.html %}

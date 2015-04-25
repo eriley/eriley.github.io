@@ -1,16 +1,3 @@
-# Site settings
-title: Evan Riley | @evanriley | @eriley
-email: evan@evanriley.io
-description: The site of one Evan Riely
-baseurl: ""
-url: "http://evanriley.io" # the base hostname & protocol for your site
-twitter_username: evanriley
-github_username:  eriley
-
-# Build settings
-markdown: kramdown
-
-permalink: /posts/:title
-
-sass:
-  sass_dir: _sass
+name: Deeply Optional
+regeneration: auto
+permalink: none
