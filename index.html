@@ -1,10 +1,27 @@
 ---
-layout: default
-title: Evan Riley
+layout: base
 ---
+<div class="wrapper">
+    <header>
+        {% if site.compass.logo %}
+        <div class="logo-container">
+          <a class="logo" href="{{ page.baseurl }}" style="background-image: url('{{ site.baseurl }}{{ site.compass.logo }}')"></a>
+        </div>
+        {% endif %}
 
-<div class="intro">
-  <img src="/images/me.png" alt="FP." class="avatar" width="60">
-  <h1>Evan Riley</h1>
-  <p class="lead-in">Hi Find me on <a href="https://github.com/evanriley">GitHub</a>, and <a href="https://twitter.com/evanriley">Twitter</a>.</p>
+        {% if site.compass.author %}
+        <div class="author-container"><h1>{{ site.compass.author }}</h1></div>
+        {% endif %}
+
+        {% if site.compass.tagline %}
+        <div class="tagline-container"><p>{{ site.compass.tagline }}</p></div>
+        {% endif %}
+    </header>
+    <main>
+      {% if site.compass.include_content %}
+      <div class="content">
+        {% include content.html %}
+      </div>
+      {% endif %}
+    </main>
 </div>
